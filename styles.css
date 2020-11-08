@@ -1,0 +1,29 @@
+.buttons{
+    background-color: aliceblue;
+    margin: 0 auto;
+    width: 50%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+
+}
+
+button{
+    border-radius: 10px;
+    width: 100px;
+    height: 100px;
+}
+.papel{
+    background-image: url("./img/paper.svg");
+    background-size: contain;
+}
+.tijeras{
+    background-image: url("./img/scissor.svg");
+    background-size: contain;
+}
+.piedra{
+    background-image: url("./img/rock.svg");
+    background-size: contain;
+}
